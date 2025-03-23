@@ -83,7 +83,6 @@ frontend/
 
 ## 📸 Screenshots
 
-🚀 *Add screenshots or GIFs showcasing the UI here.*
 ![Login Inteface](./src/assets/login.png)
 ![Chat APP Interface](./src/assets/chat-interface.png)
 ---
