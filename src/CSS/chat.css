@@ -1,0 +1,132 @@
+/* Chat App Layout */
+.chat-app {
+    display: flex;
+    height: 100vh;
+    color: #000;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background: #d1d1d1;
+    padding: 10px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chats-wrapper {
+    display: grid;
+    gap: .25rem;
+}
+
+.chat-list-item {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    border-radius: .25rem;
+
+    img,
+    i {
+        width: 50px;
+        height: 50px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-info {
+        flex-shrink: 0;
+    }
+}
+
+.chat-list-item:hover {
+    background: #f0f0f0;
+}
+
+.chat-list-item-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.chat-list-item-message {
+    font-size: 0.85rem;
+    /* color: #666; */
+}
+
+/* Chat Window */
+.chat-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #e5e5e5;
+    padding: 20px;
+}
+
+.chat-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.message {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 60%;
+}
+
+.sent {
+    align-self: flex-end;
+    background: #dcf8c6;
+}
+
+.received {
+    align-self: flex-start;
+    background: white;
+}
+
+/* Message Input */
+.message-input {
+    display: flex;
+    padding: 10px;
+    /* background: white; */
+}
+
+.message-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* background-color: #fff; */
+    border-radius: 5px;
+}
+
+.message-input button {
+    margin-left: 10px;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
