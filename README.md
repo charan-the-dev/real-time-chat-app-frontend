@@ -24,8 +24,8 @@ Follow these steps to set up and run the frontend locally:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/realtime-chat-frontend.git
-cd realtime-chat-frontend
+git clone https://github.com/yourusername/real-time-chat-app-frontend.git
+cd real-time-chat-app-frontend
 ```
 
 ### 2️⃣ Install Dependencies
